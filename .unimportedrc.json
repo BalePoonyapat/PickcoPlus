@@ -1,0 +1,19 @@
+{
+  "ignoreUnresolved": [],
+  "ignoreUnused": [
+    "@react-navigation/material-top-tabs",
+    "firebase",
+    "firebase-admin",
+    "react",
+    "react-dom",
+    "react-native",
+    "react-native-vector-icons"
+  ],
+  "ignoreUnimported": [
+    "Database/Database.js",
+    "babel.config.js",
+    "components/btnstles.js",
+    "metro.config.js",
+    "screens/Fgpaswordawait.js"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "0905554003160",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cp_name",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cp_quantity",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cp_hour_per_week",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
