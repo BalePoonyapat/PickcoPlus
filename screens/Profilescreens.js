@@ -138,6 +138,24 @@ const Profilescreens = () => {
       )
     }
   
+    const Bottommid = () => {
+      return(
+        <View style={stybotmid.groud} >
+              <TouchableOpacity style={stybotmid.boxhome} onPress={() => navigation.navigate('Homepage')}>
+                    <Image source={require('../img/iconbottom/homapage2.png')}></Image>
+              </TouchableOpacity>
+
+              <TouchableOpacity style={stybotmid.boxmassage}  onPress={() => navigation.navigate('Massagescreens')}>
+                    <Image source={require('../img/iconbottom/Massage.png')}></Image>
+               </TouchableOpacity>
+
+               <TouchableOpacity style={stybotmid.boxprofile}  onPress={() => navigation.navigate('Profilescreens')}>
+                    <Image source={require('../img/iconbottom/profileicon.png')}></Image>
+               </TouchableOpacity>
+
+        </View>
+      )
+  }
   
   
   
@@ -155,6 +173,7 @@ const Profilescreens = () => {
                       <Activity/>
                 </View>
           </ScrollView>
+          <Bottommid/>
     </SafeAreaView>
   )
 }
@@ -438,6 +457,55 @@ const Profilescreens = () => {
       fontWeight:'bold',
     }
 
+  })
+  const stybotmid = StyleSheet.create({
+    groud:{
+      backgroundColor:'#fff',
+      height:70,
+      width:'80%',
+      borderRadius:20,
+      marginVertical:-20,
+      marginHorizontal:50,
+      elevation:10,
+      alignItems:'center',
+      justifyContent:'center',
+      flexDirection:'row'
+    },
+    boxhome:{
+      marginHorizontal:3,
+      width: '20%',
+      height:'70%',
+      backgroundColor:'#FFFFFF',
+      padding:4,
+      borderRadius:10,
+      alignItems:'center',
+      justifyContent:'center',
+
+    },
+    boxprofile:{
+      marginHorizontal:3,
+      width: '20%',
+      height:'70%',
+      backgroundColor:'#FFFFFF',
+      padding:4,
+      borderRadius:10,
+      alignItems:'center',
+      justifyContent:'center',
+      marginTop:0,
+         
+    },
+    boxmassage:{
+      marginHorizontal:3,
+      width: '20%',
+      height:'70%',
+      backgroundColor:'#FFFFFF',
+      padding:4,
+      borderRadius:10,
+      alignItems:'center',
+      justifyContent:'center',
+      marginTop:0,
+         
+    },
   })
 
 export default Profilescreens

@@ -334,7 +334,7 @@ const Homepage = ({navigation}) => {
           borderRadius:10,
           alignItems:'center',
           justifyContent:'center',
-          elevation:10
+          
              
         },
         boxprofile:{
@@ -346,7 +346,7 @@ const Homepage = ({navigation}) => {
           borderRadius:10,
           alignItems:'center',
           justifyContent:'center',
-          elevation:10
+         
              
         },
         boxmassage:{
@@ -358,7 +358,7 @@ const Homepage = ({navigation}) => {
           borderRadius:10,
           alignItems:'center',
           justifyContent:'center',
-          elevation:10
+          
              
         },
       })

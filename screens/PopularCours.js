@@ -353,8 +353,7 @@ boxHome:{
   borderRadius:10,
   alignItems:'center',
   justifyContent:'center',
-  marginTop:-20,
-     
+  marginTop:-20,    
 },
 boxprofile:{
   marginHorizontal:3,
