@@ -11,14 +11,16 @@ import Registerworkplace from './screens/Registerworkplace'
 import RegisterCoach from './screens/RegisterCoach';
 import Forgotpassword from './screens/Forgotpassword';
 import Fgpasswordawait from './screens/Fgpaswordawait';
-import Profilescreen from './screens/Profilescreens';
+import Profilescreens from './screens/Profilescreens';
 import Setting from './screens/Setting';
 import PopularCours from './screens/PopularCours';
 import Matching from './screens/Matching';
 import EnglishSkill from './screens/EnglishSkill';
 import mycoourse from './screens/mycoourse';
 import Mobileskill from './screens/Mobileskill';
-
+import Massagescreens from './screens/Massagescreens';
+import CoopScreen from './screens/CoopScreen';
+import CompanyDetailScreen from './screens/CompanyDetailScreen';
 
 
 
@@ -98,6 +100,31 @@ return (
         component={EnglishSkill}
         options={{ headerShown: false}}
     />
+
+    <Stack.Screen
+            name="Profilescreens"
+            component={Profilescreens}
+            options={{ headerShown: false}}
+        />
+
+    <Stack.Screen
+            name="Massagescreens"
+            component={Massagescreens}
+            options={{ headerShown: false}}
+        />
+    <Stack.Screen
+            name="CoopScreen"
+            component={CoopScreen}
+            options={{ headerShown: false}}
+        />
+
+    <Stack.Screen
+            name="CompanyDetailScreen"
+            component={CompanyDetailScreen}
+            options={{ headerShown: false}}
+        />
+
+
 
   </Stack.Navigator>
 </NavigationContainer>
